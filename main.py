@@ -1,5 +1,4 @@
-import paramiko
-
+import paramiko  #Updated paramiko package
 def create_udp_tunnel(ssh_host, ssh_port, ssh_username, ssh_password, local_host, local_port, remote_host, remote_port):
     # Establish SSH connection
     ssh_client = paramiko.SSHClient()
